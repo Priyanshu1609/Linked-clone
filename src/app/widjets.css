@@ -1,0 +1,46 @@
+.widjets{
+    position: sticky;
+    top: 80px;
+    flex : 0.2;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding-bottom: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+.widjets__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.widjets__header > h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+.widjets__article{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+.widjets__article:hover{  
+    background-color: whitesmoke;
+}
+.widjets__articleleft{
+    color: #0177b7;
+    margin-right: 5px;
+}
+.widjets__articleleft > .MuiSvgIcon-root{
+    font-size: 15px;
+}
+.widjets__articleright{
+ flex : 1;
+}
+.widjets__articleright > h4{
+ font-size: 14px;
+}
+.widjets__articleright > p{
+    font-size: 14px;
+    color: gray;
+}
